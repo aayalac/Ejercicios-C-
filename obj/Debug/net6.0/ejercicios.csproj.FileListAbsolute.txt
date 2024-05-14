@@ -27,3 +27,4 @@ e:\C#\ejercicios\ejercicios\obj\Debug\net6.0\refint\ejercicios.dll
 e:\C#\ejercicios\ejercicios\obj\Debug\net6.0\ejercicios.pdb
 e:\C#\ejercicios\ejercicios\obj\Debug\net6.0\ejercicios.genruntimeconfig.cache
 e:\C#\ejercicios\ejercicios\obj\Debug\net6.0\ref\ejercicios.dll
+E:\C#\ejercicios\ejercicios\obj\Debug\net6.0\ejercicios.sourcelink.json
