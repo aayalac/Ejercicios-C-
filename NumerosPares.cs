@@ -2,11 +2,18 @@ class NumerosPares
 {
     public static void GenerarNumerosPares()
     {
-        Console.WriteLine("Ingrese Numero de inicio: ");        
-        int NumeroInicio = int.Parse(Console.ReadLine());        
+        Console.WriteLine("Ingrese Numero de inicio: ");
+        #pragma warning disable CS8604 // Posible argumento de referencia nulo
+        int NumeroInicio = int.Parse(Console.ReadLine());
+        #pragma warning restore CS8604 // Posible argumento de referencia nulo
+        
         int NumeroIndicado = NumeroInicio;
+
         Console.WriteLine("Ingrese Numero fin: ");
-        int NumeroFin = int.Parse(Console.ReadLine());
+        #pragma warning disable CS8604 // Posible argumento de referencia nulo
+        int NumeroFin = int.Parse(Console.ReadLine());        
+        #pragma warning restore CS8604 // Posible argumento de referencia nulo
+
         int Resultado = 0;
 
         for (int i = NumeroInicio; i <= NumeroFin; i++)
